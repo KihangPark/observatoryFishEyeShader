@@ -7,8 +7,9 @@ Main purpose of this package is providing fish eye lens shader which is focusing
 Detail documentation can be reached from below link.  
 [Link](/docs/observatoryFishEyeShaderManual.pdf)
 
-[Sample test clip1] https://www.youtube.com/watch?v=gBrhzldDfQE  
-[Sample test clip2] https://www.youtube.com/watch?v=S3yEh1n6qe0  
+[Sample test clip1] https://www.youtube.com/watch?v=RIu5IMsy6UU  
+[Sample test clip2] https://www.youtube.com/watch?v=gBrhzldDfQE   
+[Sample test clip3] https://www.youtube.com/watch?v=S3yEh1n6qe0  
 
 # Main Features
 
