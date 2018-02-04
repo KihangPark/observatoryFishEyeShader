@@ -132,8 +132,13 @@ Projection：On, Projection Up：30 degree, Projection Down：80 degree, Project
 
 * Mentalray v3.9+.
 
+# License
+
+* End User License Agreement (EULA)
+
 # Documentation
 
+Detail documentation can be reached from below link.
 [Link](/docs/observatoryFishEyeShaderManual.pdf)
 
 # Changelog
