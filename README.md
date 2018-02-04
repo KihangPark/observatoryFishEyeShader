@@ -67,40 +67,42 @@ Env Override Distance : 40
 ### Offset：Offset feature on / off
 ### Offset Degree : Degree for center point
 ### Offset Distance : Movement distance based on offset degree
-
-Offset Degree : 0 / Offset Distance : 0
 ![Alt text](/docs/images/15.png)
-
-Offset Degree : 0 / Offset Distance : 0.25
 ![Alt text](/docs/images/16.png)
 
-Offset Degree : 90 / Offset Distance : 0.5
+Offset Degree : 0 / Offset Distance : 0
+![Alt text](/docs/images/16.png)
+
+Offset Degree : 0 / Offset Distance : 0.25
 ![Alt text](/docs/images/17.png)
 
-Offset Degree : 180 / Offset Distance : 0.75
+Offset Degree : 90 / Offset Distance : 0.5
 ![Alt text](/docs/images/18.png)
 
-Offset Degree : 270 / Offset Distance : 1
+Offset Degree : 180 / Offset Distance : 0.75
 ![Alt text](/docs/images/19.png)
+
+Offset Degree : 270 / Offset Distance : 1
+![Alt text](/docs/images/20.png)
 
 ## Mask Controls
 ### Mask：Mask feature on / off
 ### Mask Texture : Texture for masking
 
 mask texture
-![Alt text](/docs/images/20.png)
+![Alt text](/docs/images/21.png)
 
 Mask：On
-![Alt text](/docs/images/21.png)
+![Alt text](/docs/images/22.png)
 
 ### Background：Background feature on / off
 ### Background Texture : Texture for background
 
 background texture
-![Alt text](/docs/images/22.png)
+![Alt text](/docs/images/23.png)
 
 background : On
-![Alt text](/docs/images/23.png)
+![Alt text](/docs/images/24.png)
 
 ## Projection Controls
 ### Projection：Projection feature on / off
@@ -112,19 +114,19 @@ background : On
 ### Projection Alpha : Alpha texture for projection
 
 Input projection texture
-![Alt text](/docs/images/24.png)
-
-Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
 ![Alt text](/docs/images/25.png)
 
 Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
 ![Alt text](/docs/images/26.png)
 
-Input projection texture
+Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
 ![Alt text](/docs/images/26.png)
 
-Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
+Input projection texture
 ![Alt text](/docs/images/27.png)
+
+Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
+![Alt text](/docs/images/28.png)
 
 # Minimum Requirements
 
