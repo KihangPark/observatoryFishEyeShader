@@ -1,0 +1,39 @@
+declare shader
+    color                                       #: shortname "outc"
+	"observatoryFishEyeShader" (
+        color "outside_color",                  #: shortname "oc" default 1 1 1
+        boolean "circle_type",                  #: shortname "ct" default on
+        integer "upside_degree",                #: shortname "rd" default 30 min 0 max 180
+        integer "wide_degree",                  #: shortname "wd" default 180 min 0 max 360
+        boolean "guide_line",                   #: shortname "gl" default off
+        color "guide_color",                    #: shortname "gc" default 1 1 1
+        boolean "env_override",                 #: shortname "eo" default off
+        integer "env_override_distance",        #: shortname "eod" default 100
+        boolean "reflection_override",          #: shortname "rlo" default off
+        integer "reflection_override_distance", #: shortname "rlod" default 100
+        boolean "refraction_override",          #: shortname "rro" default off
+        integer "refraction_override_distance", #: shortname "rrod" default 100
+        boolean "offset",                       #: shortname "o" default off
+        scalar "offset_degree",                 #: shortname "od" default 0 min 0.0 max 360.0
+        scalar "offset_distance",               #: shortname "odt" default 0 min 0.0 max 1.0
+        boolean "mask",                         #: shortname "m" default off
+        color texture "mask_texture",           #:shortname "mt"
+        boolean "background",                   #: shortname "bg" default off
+        color texture "background_texture",     #:shortname "bgt"
+        boolean "projection",                   #: shortname "p"
+        scalar "projection_left",               #: shortname "pl" default 0 min 0.0 max 180.0
+        scalar "projection_right",              #: shortname "pr" default 0 min 0.0 max 180.0
+        scalar "projection_up",                 #: shortname "pu" default 0 min 0.0 max 90.0
+        scalar "projection_down",               #: shortname "pd" default 0 min 0.0 max 90.0
+        color texture "projection_texture",     #:shortname "pt"
+        boolean "projection_alpha",             #: shortname "pa"
+	    boolean "debug",                        #: shortname "dg" default off
+        boolean "ray_limit",                    #: shortname "rl" default off
+        scalar "ray_limit_degree",              #: shortname "rld" default 0.01
+    )
+    version 1
+    apply lens
+    scanline off
+    trace on
+    #: nodeid 1121122
+end declare

@@ -1,0 +1,62 @@
+global proc AEobservatoryFishEyeShaderTemplate(string $node)
+{
+    editorTemplate -beginScrollLayout;
+ 
+    // Main Controls
+    editorTemplate -beginLayout "Main Controls" -collapse 1;
+    editorTemplate -addControl "wide_degree"; 
+    editorTemplate -addControl "upside_degree";
+    editorTemplate -addControl "circle_type";
+    editorTemplate -addControl "outside_color";
+    editorTemplate -addControl "ray_limit";
+    editorTemplate -addControl "ray_limit_degree";
+    editorTemplate -endLayout;
+
+	// guide line
+    editorTemplate -beginLayout "Guide Line Controls" -collapse 1;
+    editorTemplate -addControl "guide_line";
+    editorTemplate -addControl "guide_color";
+    editorTemplate -endLayout;
+
+	// env override	
+    editorTemplate -beginLayout "Environment Override Controls" -collapse 1;
+    editorTemplate -addControl "env_override";
+    editorTemplate -addControl "env_override_distance";
+    editorTemplate -endLayout;
+
+	// offset
+    editorTemplate -beginLayout "Offset" -collapse 1;
+    editorTemplate -addControl "offset";
+    editorTemplate -addControl "offset_degree";
+    editorTemplate -addControl "offset_distance";
+    editorTemplate -endLayout;
+
+	// mask
+    editorTemplate -beginLayout "Mask" -collapse 1;
+    editorTemplate -addControl "mask";
+    editorTemplate -addControl "mask_texture";
+    editorTemplate -addControl "background";
+    editorTemplate -addControl "background_texture";
+    editorTemplate -endLayout;
+
+	// projection
+    editorTemplate -beginLayout "Projection" -collapse 1;
+    editorTemplate -addControl "projection";
+    editorTemplate -addControl "projection_left";
+    editorTemplate -addControl "projection_right";
+    editorTemplate -addControl "projection_up";
+    editorTemplate -addControl "projection_down";
+    editorTemplate -addControl "projection_texture";
+    editorTemplate -addControl "projection_alpha";
+    editorTemplate -endLayout;
+
+	// debug
+    editorTemplate -beginLayout "Debug" -collapse 1;
+    editorTemplate -addControl "debug";
+    editorTemplate -endLayout;
+
+    // Extra Attr
+    editorTemplate -addExtraControls;
+
+	editorTemplate -endScrollLayout;
+}
