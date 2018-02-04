@@ -120,13 +120,13 @@ Projection：On, Projection Up：30 degree, Projection Down：80 degree, Project
 ![Alt text](/docs/images/26.png)
 
 Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
-![Alt text](/docs/images/26.png)
-
-Input projection texture
 ![Alt text](/docs/images/27.png)
 
-Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
+Input projection texture
 ![Alt text](/docs/images/28.png)
+
+Projection：On, Projection Up：30 degree, Projection Down：80 degree, Projection Left：30 degree, Projection Right：150 degree
+![Alt text](/docs/images/29.png)
 
 # Minimum Requirements
 
