@@ -134,6 +134,6 @@ Projection：On, Projection Up：30 degree, Projection Down：80 degree, Project
 
 # Documentation
 
-![Alt text](/docs/observatoryFishEyeShaderManual.pdf)
+[Link](/docs/observatoryFishEyeShaderManual.pdf)
 
 # Changelog
