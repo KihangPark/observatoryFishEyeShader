@@ -50,7 +50,7 @@ Outside Color :　red
 ### Guide Line：Put guide line to rendering image
 ### Guide Color：Guide line color
 
-![Alt text](/docs/images/12.png)  
+![Alt text](/docs/images/11.png)  
 ![Alt text](/docs/images/12.png)  
 
 ## Environment Override Controls
@@ -67,7 +67,7 @@ Env Override Distance : 40
 ### Offset Degree : Degree for center point
 ### Offset Distance : Movement distance based on offset degree
 
-![Alt text](/docs/images/15.png)  
+![Alt text](/docs/images/16.png)  
 ![Alt text](/docs/images/16.png)  
 
 Offset Degree : 0 / Offset Distance : 0  
